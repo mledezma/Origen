@@ -179,7 +179,13 @@ h5 {
 
 .p-img {
   text-align: center; }
-  .p-img img {
+  .p-img .banner {
+    height: 570px;
+    width: 493px; }
+  .p-img .border {
+    top: -20px;
+    left: 24px;
+    position: absolute;
     width: 96%; }
 
 .integrantes-sprite {

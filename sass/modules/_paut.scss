@@ -27,7 +27,15 @@
 .p-img {
     text-align: center;
 
-    img {
+    .banner {
+        height: 570px;
+        width: 493px;
+    }
+
+    .border {
+        top: -20px;
+        left: 24px;
+        position: absolute;
         width: 96%;
     }
 }
