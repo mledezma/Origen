@@ -1,0 +1,20 @@
+// Variables
+$color-front: #24BDCF;
+$color-subtle: #ddd;
+
+
+// SVG styling and animation
+
+.score-circle {
+    stroke: $color-front;
+    transition: stroke-dashoffset 1s ease-out;
+}
+
+.score-empty{
+    stroke: $color-subtle;
+}
+
+.score-text {
+    fill: $color-front;
+    font: bold 4rem 'Roboto', sans-serif!important;
+}

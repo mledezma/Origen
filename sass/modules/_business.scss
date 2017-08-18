@@ -1,0 +1,37 @@
+.b-title {
+    text-align: center;
+    margin-bottom: 80px;
+    color: #000;
+}
+
+.b-section {
+    text-align: center;
+    position: relative;
+
+    img {
+        width: 85%;
+    }
+
+    p {
+        margin-top: 25px;
+    }
+}
+
+.b-section:after {
+    background: url("../img/flecha-derecha.png") no-repeat;
+    content: "";
+    height: 16%;
+    right: -65px;
+    position: absolute; 
+    top: 31%;
+    width: 29%;
+}
+
+.b-section:last-child:after {
+    background: none;
+    content: "";
+}
+
+.business {
+    position: relative;
+}

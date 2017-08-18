@@ -1,0 +1,33 @@
+.integrantes-sprite {
+    background-image: url('../img/integrantes.png');
+    background-repeat: no-repeat;
+    height: 275px;
+    width: 220px;
+    background-position: 0;
+    margin: 40px auto 0;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes movement {
+    0% {
+        background-position: 0;
+    }
+    20% {
+        background-position: -255px;
+    }
+    40% {
+        background-position: -515px;
+    }
+    60% {
+        background-position: -775px;
+    }
+    80% {
+        background-position: -1035px;
+    }
+    100% {
+        background-position: -1295px;
+    }
+}

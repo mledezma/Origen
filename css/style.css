@@ -1,0 +1,217 @@
+p {
+  font-size: 18px; }
+
+body {
+  font-family: "Roboto", sans-serif !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700 !important; }
+
+.logo {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #999; }
+  .logo img {
+    width: 20%; }
+
+.navbar {
+  text-align: center; }
+
+.menu {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 !important; }
+  .menu li {
+    display: inline-block;
+    list-style: none; }
+  .menu a {
+    font-weight: 700;
+    display: block;
+    color: #000;
+    font-size: 18px;
+    padding: 23px 20px; }
+  .menu a:hover {
+    color: #000 !important;
+    border-bottom: 3px solid #24BDCF;
+    text-decoration: none; }
+  .menu a:active {
+    color: #435667 !important;
+    text-decoration: none !important; }
+  .menu a:focus {
+    color: #435667 !important;
+    border-bottom: 3px solid #24BDCF;
+    text-decoration: none !important; }
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  /* give it dimensions */
+  width: 45%;
+  top: 0;
+  z-index: 9; }
+  .sticky a {
+    padding: 15px 20px !important;
+    color: #fff !important; }
+    .sticky a:hover {
+      color: #24BDCF !important; }
+
+.section {
+  padding: 80px 0; }
+
+.c-title {
+  text-align: center;
+  margin-bottom: 80px;
+  color: #fff; }
+
+.c-info {
+  text-align: right !important; }
+  .c-info p {
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    width: 440px;
+    font-size: 20px; }
+
+.c-image {
+  text-align: left; }
+  .c-image img {
+    width: 50%; }
+
+.c-full {
+  margin-bottom: 100px; }
+
+.c-full:last-child {
+  margin-bottom: 0; }
+
+.caracteristics {
+  background-color: #435667; }
+
+.b-title {
+  text-align: center;
+  margin-bottom: 80px;
+  color: #000; }
+
+.b-section {
+  text-align: center;
+  position: relative; }
+  .b-section img {
+    width: 85%; }
+  .b-section p {
+    margin-top: 25px; }
+
+.b-section:after {
+  background: url("../img/flecha-derecha.png") no-repeat;
+  content: "";
+  height: 16%;
+  right: -65px;
+  position: absolute;
+  top: 31%;
+  width: 29%; }
+
+.b-section:last-child:after {
+  background: none;
+  content: ""; }
+
+.business {
+  position: relative; }
+
+.s-info {
+  text-align: left !important; }
+  .s-info p {
+    color: #fff;
+    float: left;
+    margin-top: 20px;
+    width: 440px;
+    font-size: 20px; }
+
+.s-image {
+  text-align: right; }
+  .s-image img {
+    margin-right: 40px;
+    width: 90%; }
+
+.s-data {
+  margin-top: 20px; }
+  .s-data img {
+    width: 65%; }
+
+.s-data_img {
+  text-align: center; }
+
+.score-circle {
+  stroke: #24BDCF;
+  transition: stroke-dashoffset 1s ease-out; }
+
+.score-empty {
+  stroke: #ddd; }
+
+.score-text {
+  fill: #24BDCF;
+  font: bold 4rem "Roboto", sans-serif !important; }
+
+.p-info {
+  text-align: left !important; }
+  .p-info p {
+    color: #000;
+    float: left;
+    margin-top: 20px;
+    width: 440px;
+    font-size: 20px; }
+  .p-info form {
+    margin-top: 20px; }
+
+.p-btn {
+  text-align: center;
+  margin-top: 45px; }
+  .p-btn a {
+    background-color: #24BDCF;
+    color: #fff !important;
+    padding: 15px 35px; }
+
+.p-img {
+  text-align: center; }
+  .p-img img {
+    width: 96%; }
+
+.integrantes-sprite {
+  background-image: url("../img/integrantes.png");
+  background-repeat: no-repeat;
+  height: 275px;
+  width: 220px;
+  background-position: 0;
+  margin: 40px auto 0;
+  animation-name: movement;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s; }
+
+@keyframes movement {
+  0% {
+    background-position: 0; }
+  20% {
+    background-position: -255px; }
+  40% {
+    background-position: -515px; }
+  60% {
+    background-position: -775px; }
+  80% {
+    background-position: -1035px; }
+  100% {
+    background-position: -1295px; } }
+.ct-info p {
+  color: #fff;
+  margin: 4px 0 3px; }
+
+.ct-media {
+  margin-top: 40px; }
+
+/*# sourceMappingURL=style.css.map */
